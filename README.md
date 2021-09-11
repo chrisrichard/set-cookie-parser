@@ -141,9 +141,9 @@ function modifySetCookie(res){
 
 See a real-world example of this in [unblocker](https://github.com/nfriedly/node-unblocker/blob/08a89ec27274b46dcd80d0a324a59406f2bdad3d/lib/cookies.js#L67-L85)
 
-## Usage in React Native
+## Usage in React Native, Cloudflare Workers
 
-React Native follows the Fetch spec more closely and combines all of the Set-Cookie header values into a single string. 
+React Native as well as Cloudflare Workers follow the Fetch spec more closely and combine all of the Set-Cookie header values into a single string. 
 The `splitCookiesString` method reverses this.
 
 ```js
